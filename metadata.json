@@ -1,0 +1,8 @@
+
+{
+  "name": "We Buy Houses Philadelphia",
+  "description": "A high-performance real estate platform for Philadelphia homeowners looking to sell their properties as-is for cash, featuring professional design and smooth animations.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
