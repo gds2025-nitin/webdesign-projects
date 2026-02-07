@@ -36,7 +36,7 @@ const Features: React.FC = () => {
               <div className="w-14 h-14 bg-[#FB8500] rounded-2xl flex items-center justify-center mb-8 shadow-lg shadow-orange-900/40">
                 <Home className="w-8 h-8 text-[#023047]" />
               </div>
-              <h3 className="text-3xl font-black mb-6">We Buy Houses in ANY Condition</h3>
+              <h3 className="text-3xl font-white mb-6">We Buy Houses in ANY Condition</h3>
               <ul className="grid md:grid-cols-2 gap-4 mb-8">
                 {['Hoarder Homes', 'Foreclosure Threats', 'Major Fire Damage', 'Probate / Inherited', 'Structural Issues', 'Tired Landlords'].map((item) => (
                   <li key={item} className="flex items-center text-slate-300 font-bold">
