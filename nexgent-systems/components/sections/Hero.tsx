@@ -56,7 +56,7 @@ export const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.1] brightness-125 contrast-125 mix-blend-overlay" />
       </div>
 
-      <div className="container mx-auto px-4 md:px-6 relative z-10">
+      <div className="container relative z-10">
         <div className="grid lg:grid-cols-12 gap-12 items-center">
 
           {/* Content Column */}

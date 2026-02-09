@@ -48,7 +48,7 @@ export const Features: React.FC = () => {
       {/* Background Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary-600/5 rounded-full blur-[150px] pointer-events-none" />
 
-      <div className="container mx-auto px-4 md:px-6 relative z-10">
+      <div className="container relative z-10">
         <AnimatedSection>
           <div className="max-w-3xl mx-auto text-center mb-20">
             <Badge icon={Sparkles} color="secondary">Performance Stack</Badge>

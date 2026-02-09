@@ -11,7 +11,7 @@ export const CTA: React.FC = () => {
         <div className="absolute -top-[50%] -left-[20%] w-[1000px] h-[1000px] bg-secondary-600/30 rounded-full blur-3xl" />
       </div>
 
-      <div className="container mx-auto px-4 relative z-10 text-center">
+      <div className="container relative z-10 text-center">
         <AnimatedSection>
           <h2 className="text-4xl md:text-6xl font-display font-bold text-white mb-6 tracking-tight leading-tight">
             Ready to <span className="text-slate-900 bg-white px-2 rounded-lg transform -rotate-2 inline-block">Transform</span> your Business?

@@ -13,7 +13,7 @@ export const Header: React.FC = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
     };
-    
+
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => {
       window.removeEventListener('scroll', handleScroll);
@@ -33,14 +33,13 @@ export const Header: React.FC = () => {
   ];
 
   return (
-    <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled 
-          ? 'bg-slate-950/80 backdrop-blur-md border-b border-slate-800 py-3' 
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
+          ? 'bg-slate-950/80 backdrop-blur-md border-b border-slate-800 py-3'
           : 'bg-transparent py-5'
-      }`}
+        }`}
     >
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 group">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-500 to-secondary-500 flex items-center justify-center text-white font-bold group-hover:scale-105 transition-transform">
@@ -53,12 +52,11 @@ export const Header: React.FC = () => {
 
           <nav className="hidden lg:flex items-center gap-8">
             {navLinks.map((link) => (
-              <Link 
-                key={link.name} 
-                to={link.href} 
-                className={`text-sm font-medium transition-colors ${
-                  location.pathname === link.href ? 'text-white' : 'text-slate-400 hover:text-white'
-                }`}
+              <Link
+                key={link.name}
+                to={link.href}
+                className={`text-sm font-medium transition-colors ${location.pathname === link.href ? 'text-white' : 'text-slate-400 hover:text-white'
+                  }`}
               >
                 {link.name}
               </Link>
@@ -76,7 +74,7 @@ export const Header: React.FC = () => {
             </Link>
           </div>
 
-          <button 
+          <button
             className="lg:hidden p-2 text-slate-300"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle menu"
@@ -91,12 +89,11 @@ export const Header: React.FC = () => {
         <div className="lg:hidden absolute top-full left-0 right-0 bg-slate-950 border-b border-slate-800 p-4 shadow-2xl animate-in slide-in-from-top-5">
           <nav className="flex flex-col gap-4">
             {navLinks.map((link) => (
-              <Link 
-                key={link.name} 
+              <Link
+                key={link.name}
                 to={link.href}
-                className={`text-lg font-medium py-2 border-b border-slate-900 ${
-                  location.pathname === link.href ? 'text-white' : 'text-slate-300'
-                }`}
+                className={`text-lg font-medium py-2 border-b border-slate-900 ${location.pathname === link.href ? 'text-white' : 'text-slate-300'
+                  }`}
               >
                 {link.name}
               </Link>

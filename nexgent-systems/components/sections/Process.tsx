@@ -32,7 +32,7 @@ export const Process: React.FC = () => {
 
   return (
     <section id="process" className="py-32 bg-slate-950 border-y border-slate-900 relative">
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container">
         <AnimatedSection>
           <div className="text-center mb-24">
             <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6 tracking-tight">
@@ -62,7 +62,7 @@ export const Process: React.FC = () => {
                   </div>
                 </div>
 
-                <h3 className="text-xl font-display font-bold text-white mb-4 group-hover:text-primary-300 transition-colors">
+                <h3 className="text-2xl font-display font-bold text-white mb-4 group-hover:text-primary-300 transition-colors">
                   {step.title}
                 </h3>
                 <p className="text-slate-400 text-sm leading-relaxed max-w-[250px]">

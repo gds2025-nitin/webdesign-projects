@@ -30,16 +30,16 @@ export const Home: React.FC = () => {
 
   return (
     <>
-      <SEO 
-        title="Nexgent Systems | All-in-One Business Automation & CRM Platform" 
+      <SEO
+        title="Nexgent Systems | All-in-One Business Automation & CRM Platform"
         description="Scale your business with Nexgent Systems. Consolidate your CRM, lead capture, and AI automation into one powerful ecosystem. Start your free trial today."
         keywords="all-in-one business automation, white label CRM for agencies, AI lead capture software, CRM pipeline management"
       />
-      
+
       <Hero />
-      
+
       <section className="py-24 bg-slate-900 border-y border-slate-800">
-        <div className="container mx-auto px-4 md:px-6">
+        <div className="container">
           <div className="max-w-4xl mx-auto text-center">
             <AnimatedSection>
               <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-8 tracking-tight">
@@ -57,9 +57,9 @@ export const Home: React.FC = () => {
       <Features />
 
       <section className="py-12 bg-slate-950">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <AnimatedSection>
-            <SecondaryCTA 
+            <SecondaryCTA
               tag="ROI CALCULATOR"
               title="See exactly how much you're leaving on the table."
               description="Calculate the cost of lead leakage and manual follow-ups in your current business stack."
@@ -70,15 +70,15 @@ export const Home: React.FC = () => {
           </AnimatedSection>
         </div>
       </section>
-      
+
       <Suspense fallback={<div className="h-20" />}>
         <Process />
-        
+
         <section className="py-24 bg-slate-950">
-          <div className="container mx-auto px-4 md:px-6">
+          <div className="container">
             <AnimatedSection>
               <div className="text-center mb-16">
-                <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-4">
+                <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-4 tracking-tight">
                   Frequently Asked <span className="text-primary-400">Questions</span>
                 </h2>
               </div>

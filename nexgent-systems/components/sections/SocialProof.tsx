@@ -15,7 +15,7 @@ export const SocialProof: React.FC = () => {
 
   return (
     <section className="py-20 bg-slate-950 border-y border-slate-900 relative">
-      <div className="container mx-auto px-4">
+      <div className="container">
 
         {/* Logos */}
         <div className="text-center mb-12">

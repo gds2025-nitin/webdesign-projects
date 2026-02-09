@@ -44,12 +44,12 @@ export const LocalServices: React.FC = () => {
       />
 
       {/* Hero Section */}
-      <section className="py-24 relative overflow-hidden">
-        <div className="container mx-auto px-4 md:px-6">
+      <section className="relative min-h-[90dvh] flex items-center pt-32 pb-24 overflow-hidden bg-slate-950">
+        <div className="container">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <AnimatedSection>
               <Badge icon={Star}>For Local Pros</Badge>
-              <h1 className="text-5xl md:text-8xl font-display font-bold text-white mb-8 tracking-tighter leading-[1] transition-all">
+              <h1 className="font-display font-bold text-5xl sm:text-6xl lg:text-7xl leading-[1.05] mb-8 tracking-tighter text-white">
                 Dominate Your <br /> <span className="text-primary-400">Local Market</span>
               </h1>
               <p className="text-xl text-slate-400 mb-10 leading-relaxed max-w-xl">
@@ -100,7 +100,7 @@ export const LocalServices: React.FC = () => {
 
       {/* Comparison Section */}
       <section className="py-32 bg-slate-900/30 border-y border-slate-900 relative">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <AnimatedSection>
             <div className="text-center mb-20">
               <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6 tracking-tight">
@@ -146,7 +146,7 @@ export const LocalServices: React.FC = () => {
 
       {/* Guide Bridge */}
       <section className="py-12 bg-slate-950">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <AnimatedSection>
             <SecondaryCTA
               tag="INDUSTRY GUIDE"

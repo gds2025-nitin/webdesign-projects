@@ -30,7 +30,7 @@ export const Testimonials: React.FC = () => {
 
   return (
     <section className="py-32 bg-slate-950 relative overflow-hidden">
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container">
         <AnimatedSection>
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-4 tracking-tight">

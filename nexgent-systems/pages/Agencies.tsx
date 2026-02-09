@@ -17,18 +17,18 @@ export const Agencies: React.FC = () => {
       />
 
       {/* Hero Section */}
-      <section className="py-24 md:py-32 bg-slate-950 relative overflow-hidden">
+      <section className="relative min-h-[90dvh] flex items-center pt-32 pb-24 overflow-hidden bg-slate-950">
         {/* Abstract Background Element */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full pointer-events-none opacity-20">
           <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-primary-600/20 rounded-full blur-[120px]" />
           <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-secondary-600/20 rounded-full blur-[120px]" />
         </div>
 
-        <div className="container mx-auto px-4 md:px-6 relative z-10 text-center">
+        <div className="container relative z-10 text-center">
           <AnimatedSection>
             <Badge icon={Sparkles}>Agency Pro Stack</Badge>
 
-            <h1 className="text-5xl md:text-8xl font-display font-bold text-white mb-8 tracking-tighter leading-[0.95]">
+            <h1 className="font-display font-bold text-5xl sm:text-6xl lg:text-7xl leading-[1.05] mb-8 tracking-tighter text-white">
               Launch Your Own <br />
               <span className="relative inline-block px-4">
                 <span className="relative z-10 text-slate-950">Branded SaaS</span>
@@ -51,7 +51,7 @@ export const Agencies: React.FC = () => {
 
       {/* Features Grid */}
       <section className="py-24 bg-slate-900/40 border-y border-slate-900">
-        <div className="container mx-auto px-4 md:px-6">
+        <div className="container">
           <div className="max-w-3xl mx-auto text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6 tracking-tight leading-tight">
               Built by Agency Owners, <br />
@@ -104,7 +104,7 @@ export const Agencies: React.FC = () => {
 
       {/* Profits Bridge */}
       <section className="py-12 bg-slate-950">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <AnimatedSection>
             <SecondaryCTA
               tag="SaaS PROFITABILITY"
@@ -120,7 +120,7 @@ export const Agencies: React.FC = () => {
 
       {/* Social Proof/Results Section */}
       <section className="py-24 bg-slate-950">
-        <div className="container mx-auto px-4 md:px-6">
+        <div className="container">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <AnimatedSection>
               <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-8 leading-[1.1] tracking-tight">

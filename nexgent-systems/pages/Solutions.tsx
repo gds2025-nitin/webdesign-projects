@@ -37,11 +37,11 @@ export const Solutions: React.FC = () => {
       />
 
       {/* Header */}
-      <section className="py-16 md:py-24 bg-slate-950 relative overflow-hidden">
+      <section className="relative min-h-[90dvh] flex items-center pt-32 pb-24 overflow-hidden bg-slate-950">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-900 via-slate-950 to-slate-950" />
-        <div className="container mx-auto px-4 relative z-10 text-center">
+        <div className="container relative z-10 text-center">
           <AnimatedSection>
-            <h1 className="text-4xl md:text-7xl font-display font-bold text-white mb-6 leading-[1.1] tracking-tighter">
+            <h1 className="font-display font-bold text-5xl sm:text-6xl lg:text-7xl leading-[1.05] mb-6 tracking-tighter text-white">
               Put Your Growth on <br /> <span className="text-primary-400">Autopilot</span> with AI
             </h1>
             <p className="text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
@@ -54,7 +54,7 @@ export const Solutions: React.FC = () => {
 
       {/* Grid */}
       <section className="py-20 bg-slate-950">
-        <div className="container mx-auto px-4 md:px-6">
+        <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {solutions.map((s, i) => (
               <AnimatedSection key={i} delay={i * 0.1}>
@@ -62,7 +62,7 @@ export const Solutions: React.FC = () => {
                   <div className={`w-12 h-12 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center mb-6 ${s.color}`}>
                     <s.icon className="w-6 h-6" />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-3">{s.title}</h3>
+                  <h3 className="text-2xl font-display font-bold text-white mb-3">{s.title}</h3>
                   <p className="text-slate-400 leading-relaxed flex-grow">{s.desc}</p>
                 </div>
               </AnimatedSection>
@@ -73,7 +73,7 @@ export const Solutions: React.FC = () => {
 
       {/* Mid-Page Bridge */}
       <section className="py-12 bg-slate-950">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <AnimatedSection>
             <SecondaryCTA
               variant="gradient"
@@ -90,7 +90,7 @@ export const Solutions: React.FC = () => {
 
       {/* Deep Dive Section */}
       <section className="py-24 bg-slate-900 border-y border-slate-900">
-        <div className="container mx-auto px-4 md:px-6">
+        <div className="container">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <AnimatedSection>
               <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-6 leading-[1.1] tracking-tight">
